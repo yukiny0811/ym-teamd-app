@@ -9,6 +9,8 @@ import TeamDLibrary
 
 enum ReplyMessages {
     
+    //返信メッセージを手動で追加していく
+    
     static let replyMessages: [String] = [
         "こんにちは",
         "はじめまして！",

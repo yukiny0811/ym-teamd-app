@@ -7,6 +7,7 @@
 
 import TeamDLibrary
 
+//ここはいじらない
 struct ContentView: View {
     
     @Default(.matchedPeople) var matchedPeople

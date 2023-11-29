@@ -9,10 +9,7 @@ import TeamDLibrary
 
 class MatchingViewController: UIViewController {
     
-    @IBOutlet var nameLabel: UILabel!
-    @IBOutlet var ageLabel: UILabel!
-    @IBOutlet var imageView: UIImageView!
-    @IBOutlet var shoukaibunLabel: UILabel!
+    //IBOutletここに書く
     
     var currentPerson: ProfileData = ProfileData.people.randomElement()!
     
@@ -31,11 +28,7 @@ class MatchingViewController: UIViewController {
     }
     
     func reloadPerson() {
-        currentPerson = ProfileData.people.randomElement()!
-        nameLabel.text = currentPerson.name
-        ageLabel.text = "\(currentPerson.age)歳"
-        imageView.image = currentPerson.image.jpeg()!
-        shoukaibunLabel.text = currentPerson.shoukaibun
+        //リロード処理をここに書く
     }
 }
 

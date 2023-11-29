@@ -8,6 +8,9 @@
 import TeamDLibrary
 
 extension ProfileData {
+    
+    //人を手動で追加していく
+    
     static let people: [ProfileData] = [
         .person1,
         .person2,
@@ -20,6 +23,7 @@ extension ProfileData {
         isYamanashi: false,
         shoukaibun: "ゆるゆるゆるゆるしてます！"
     )
+    
     static let person2: ProfileData = .init(
         name: "キビキビ",
         age: 22,
