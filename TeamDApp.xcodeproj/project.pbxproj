@@ -14,8 +14,8 @@
 		560EBB732B1721E2007525D5 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560EBB722B1721E2007525D5 /* ProfileViewController.swift */; };
 		560EBB752B172209007525D5 /* ProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 560EBB742B172209007525D5 /* ProfileViewController.xib */; };
 		560EBB772B172326007525D5 /* SaveData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560EBB762B172326007525D5 /* SaveData.swift */; };
-		561A88902B177A99004C3FFF /* TeamDLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = 561A888F2B177A99004C3FFF /* TeamDLibrary */; };
 		564C8E8A2B17757800ECFC21 /* ReplyMessages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564C8E892B17757800ECFC21 /* ReplyMessages.swift */; };
+		569FB2C02B1AACCB00A092B2 /* TeamDLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = 569FB2BF2B1AACCB00A092B2 /* TeamDLibrary */; };
 		56A7E9CA2B172ED1009AE417 /* MatchingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A7E9C92B172ED1009AE417 /* MatchingViewController.swift */; };
 		56A7E9CC2B172EDB009AE417 /* MatchingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56A7E9CB2B172EDB009AE417 /* MatchingViewController.xib */; };
 /* End PBXBuildFile section */
@@ -39,7 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				561A88902B177A99004C3FFF /* TeamDLibrary in Frameworks */,
+				569FB2C02B1AACCB00A092B2 /* TeamDLibrary in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,7 +136,7 @@
 			);
 			name = TeamDApp;
 			packageProductDependencies = (
-				561A888F2B177A99004C3FFF /* TeamDLibrary */,
+				569FB2BF2B1AACCB00A092B2 /* TeamDLibrary */,
 			);
 			productName = TeamDApp;
 			productReference = 560EBB532B171790007525D5 /* TeamDApp.app */;
@@ -167,7 +167,7 @@
 			);
 			mainGroup = 560EBB4A2B171790007525D5;
 			packageReferences = (
-				561A888E2B177A99004C3FFF /* XCRemoteSwiftPackageReference "ym-teamd-library" */,
+				569FB2BE2B1AACCA00A092B2 /* XCRemoteSwiftPackageReference "ym-teamd-library" */,
 			);
 			productRefGroup = 560EBB542B171790007525D5 /* Products */;
 			projectDirPath = "";
@@ -410,20 +410,20 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		561A888E2B177A99004C3FFF /* XCRemoteSwiftPackageReference "ym-teamd-library" */ = {
+		569FB2BE2B1AACCA00A092B2 /* XCRemoteSwiftPackageReference "ym-teamd-library" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "git@github.com:yukiny0811/ym-teamd-library.git";
+			repositoryURL = "https://github.com/yukiny0811/ym-teamd-library";
 			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.0;
+				branch = main;
+				kind = branch;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		561A888F2B177A99004C3FFF /* TeamDLibrary */ = {
+		569FB2BF2B1AACCB00A092B2 /* TeamDLibrary */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 561A888E2B177A99004C3FFF /* XCRemoteSwiftPackageReference "ym-teamd-library" */;
+			package = 569FB2BE2B1AACCA00A092B2 /* XCRemoteSwiftPackageReference "ym-teamd-library" */;
 			productName = TeamDLibrary;
 		};
 /* End XCSwiftPackageProductDependency section */
